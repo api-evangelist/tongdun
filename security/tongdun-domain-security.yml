@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: tongdun.cn
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 15 07:31:06 2026 GMT
+  hsts: false
+domains:
+- domain: tongdun.cn
+  dnssec: true
+  caa:
+  - www.tongdun.cn.
+  spf: true
+  dmarc: false

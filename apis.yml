@@ -1,7 +1,31 @@
 aid: tongdun
-name: tongdun
-description: tongdun is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tongdun.png
+name: Tongdun
+description: >-
+  Tongdun (同盾科技 / Tongdun Technology) is a Hangzhou-based intelligent
+  risk-control and anti-fraud analytics company whose public product presence
+  now operates under the 小盾未来 (Xiaodun Future) brand at xiaodun.com. It uses
+  AI and intelligent-analysis techniques to predict and score fraud and credit
+  risk across consumer lending, banking, insurance, and e-commerce, delivering
+  decisioning, anti-fraud, and risk-management capabilities to financial
+  institutions, small-loan and consumer-finance lenders, auto finance, and
+  internet businesses. Its risk-control services are consumed as enterprise
+  interfaces (风控接口) provisioned behind account registration and sales
+  onboarding; there is no public self-serve developer portal, OpenAPI, or SDK
+  registry surface exposed at this time. This record was surfaced as a portfolio
+  company of Qiming Venture Partners and enriched from the company's live public
+  web presence.
 url: https://raw.githubusercontent.com/api-evangelist/tongdun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Risk Management
+- Fraud Detection
+- Anti-Fraud
+- Risk Control
+- Financial Services
+- Credit Risk
+- Artificial Intelligence
+- Decisioning
+- RegTech
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,14 @@ maintainers:
 common:
 - type: Website
   url: https://tongdun.cn
+- type: Website
+  url: https://www.xiaodun.com
+- type: SignUp
+  url: https://www.xiaodun.com/register
+- type: DomainSecurity
+  url: security/tongdun-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
